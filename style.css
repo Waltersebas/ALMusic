@@ -1,0 +1,81 @@
+body {
+    background-color: #1b1f2a;
+    color: #e0e0e0;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e2d42;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: #00bcd4;
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 5px solid #00838f;
+}
+
+.intro {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #223344;
+}
+
+.intro h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    color: #00bcd4;
+}
+
+.intro p {
+    font-size: 20px;
+    color: #b0bec5;
+}
+
+.catalogo {
+    padding: 30px 20px;
+    background-color: #1b1f2a;
+}
+
+.catalogo h2 {
+    color: #00bcd4;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.music-list {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.music-container {
+    flex-shrink: 0;
+    width: 300px;
+    text-align: center;
+    background-color: #2a2f3a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.music-container h3 {
+    color: #00bcd4;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.music-container p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #cfd8dc;
+}
+
+iframe {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
